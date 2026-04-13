@@ -1,0 +1,11 @@
+# requirements.txt
+# Python 3.10+
+# ScanCode Toolkit is not installed via pip in this file.
+# Please install ScanCode Toolkit separately and set SCANCODE_EXECUTABLE
+# in src/config/pipeline_config.py.
+
+pandas
+numpy
+scikit-learn
+xgboost
+joblib

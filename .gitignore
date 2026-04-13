@@ -1,0 +1,32 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data directories
+data/**
+!data/
+!data/**/
+!data/**/.gitkeep
+!data/05_trained_models/*.csv
+!data/05_trained_models/*.pkl
+
+# Evaluation results
+data/06_evaluation_results/*.csv
+data/06_evaluation_results/*.png
+!data/06_evaluation_results/.gitkeep
+
+# Temporary files
+tmp/*
+!tmp/.gitkeep
+temp/
